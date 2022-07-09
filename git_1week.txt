@@ -1,0 +1,15 @@
+1 앞으로 git 프로젝트로 만들고 싶은 것
+- 예능 프로그램 요리법 레시피 모으기
+
+2. 1주차 주요 개념 키워드 적어보기
+- 버전관리 : 프로젝트 상태가 변경되는 정보를 알고 있다는 것
+- git 초기화(git initialize) : 앞으로 Git 관리 할거다!!!
+- commit : 현재 프로젝트의 상태를 찰칵 저장하는 것
+- add(staging) : commit 에 반영할지 안 할지는 파일 단위로 선택할 수 있다. commit 에 반영할 파일을 선택하는 것
+- commit history : commit 한 순서대로 리스트. 즉, 역사!!
+- git 초기화 -> add(staging) -> commit
+- repo : 'Git으로 관리되는 프로젝트' 를 Git 에서는 repo(리포, repository 리포지토리의 약자) 라고 부름. 내 컴퓨터에 저장되어있는 리포지토리를 로컬repo(local repository)라고 함. Github 처럼 다른 곳에서 접속할 수 있는 공간에 저장되어 있는 것을 원격 repo(remote repository)라고 함. 
+- Tracking(추적) : 로컬 repo 와 원격 repo를 연결한다.
+- push : 로컬 repo 의 commit 들을 원격 repo 에 반영하기(push) 밀어넣기. 원격 repo 에 없는 새로운 commit 내역을 모두 원격 repo 에 한 번에 반영함.
+- pull : 원격 repo 에 없는 새로운 commit 내역을 모두 로컬 repo 에 한 번에 반영함.
+- clone : 원격 repo 를 내 컴퓨터에 가져와서 초기 repo 세팅하는 것을 clone(복제하기)!!!! 
